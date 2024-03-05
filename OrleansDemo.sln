@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Silo", "Silo\Silo.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csproj", "{DFFA863F-B59E-463A-9E22-D8AE4B28F708}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelloOrleans", "HelloOrleans", "{0512ECAD-CEC5-498D-AF8A-3414B41352B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{EBAF8111-FBC3-4E6E-9D02-D0045D5FA52B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +46,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73C941A9-1157-4E5F-9B5D-567A0E89ECC7} = {EBAF8111-FBC3-4E6E-9D02-D0045D5FA52B}
+		{E230A9C3-0829-49DD-BD18-986C46F5D3D4} = {0512ECAD-CEC5-498D-AF8A-3414B41352B0}
+		{2FB93B1D-F515-4D32-A022-FF2EACA9A359} = {0512ECAD-CEC5-498D-AF8A-3414B41352B0}
+		{9F5166BB-3164-48AB-8468-C5ECF530EA51} = {0512ECAD-CEC5-498D-AF8A-3414B41352B0}
+		{DFFA863F-B59E-463A-9E22-D8AE4B28F708} = {0512ECAD-CEC5-498D-AF8A-3414B41352B0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {39273B5E-79F7-4941-BDBD-C4BBC8269237}
